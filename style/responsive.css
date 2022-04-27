@@ -1,0 +1,63 @@
+@media screen and (max-width:600px){
+    header .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .botao{
+        margin-top: 5px;
+        width: 130px;
+        height: 60px;
+        font-size: 10px;
+    }
+
+    header nav a{
+        margin-bottom: 5px;
+    }
+
+}
+
+@media screen and (max-width:700px){
+    .botao{
+        margin-top: 5px;
+        width: 140px;
+        height: 60px;
+        font-size: 11px;
+    }
+
+    header nav a{
+        margin-bottom: 5px;
+    }
+}
+
+@media screen and (max-width:1020px){
+    .botao{
+        margin-top: 5px;
+        width: 140px;
+        height: 60px;
+        font-size: 11px;
+    }
+
+    header nav a{
+        margin-bottom: 5px;
+    }
+
+}
+
+@media screen and (min-width:1000px) {
+    .descricao{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:500px) {
+    .descricao{
+        width: 50%;
+    }
+}
+
+@media screen and (min-width:300px) {
+    .descricao{
+        width: 300px;
+    }
+}
